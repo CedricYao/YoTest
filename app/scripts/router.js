@@ -1,0 +1,3 @@
+Yotest.Router.map(function () {
+  
+});
