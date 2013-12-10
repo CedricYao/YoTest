@@ -1,4 +1,6 @@
-var Yotest = window.Yotest = Ember.Application.create();
+var Yotest = window.Yotest = Ember.Application.create({
+    LOG_TRANSITIONS: true
+});
 
 /* Order and include as you please. */
 require('scripts/controllers/*');
