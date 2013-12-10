@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73115ba6-2e04-4ee3-b555-0fe5f45e82ce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/models/task.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scripts/models/user.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/time.hbs" afterPath="$PROJECT_DIR$/app/templates/time.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yoTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,6 +81,7 @@
             <state line="5" column="35" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
+                <marker date="1386697776000" expanded="true" signature="80:175" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -104,12 +107,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/models/user.js">
+      <file leaf-file-name="task.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/models/task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="218" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+            <state line="12" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.16574585" vertical-offset="0" max-vertical-offset="905">
               <folding>
-                <element signature="e#0#40#0" expanded="false" />
+                <element signature="e#0#41#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -118,20 +121,26 @@
       <file leaf-file-name="combined-scripts.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.tmp/scripts/combined-scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1170">
+            <state line="11" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1020">
               <folding>
-                <marker date="1386697778000" expanded="true" signature="671:861" placeholder="{...}" />
-                <marker date="1386697778000" expanded="true" signature="720:747" placeholder="{...}" />
+                <marker date="1386698806000" expanded="true" signature="104:115" placeholder="{...}" />
+                <marker date="1386698806000" expanded="true" signature="146:246" placeholder="[...]" />
+                <marker date="1386698806000" expanded="true" signature="139:190" placeholder="{&quot;id&quot;: 1...}" />
+                <marker date="1386698806000" expanded="true" signature="195:216" placeholder="{&quot;id&quot;: 2...}" />
+                <marker date="1386698806000" expanded="true" signature="480:670" placeholder="{...}" />
+                <marker date="1386698806000" expanded="true" signature="529:556" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="time.hbs" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="time.hbs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/time.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.05107832" vertical-offset="0" max-vertical-offset="881">
-              <folding />
+            <state line="4" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="-0.8" vertical-offset="0" max-vertical-offset="150">
+              <folding>
+                <marker date="1386697894000" expanded="true" signature="17:80" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.tmp/scripts/compiled-templates.js" />
         <option value="$PROJECT_DIR$/app/styles/style.css" />
@@ -170,6 +178,7 @@
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/scripts/routes/time_route.js" />
         <option value="$PROJECT_DIR$/app/templates/time.hbs" />
+        <option value="$PROJECT_DIR$/app/scripts/models/task.js" />
       </list>
     </option>
   </component>
@@ -377,24 +386,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YoTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value=".tmp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -588,19 +579,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.tmp/scripts/combined-scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1170">
+        <state line="11" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1020">
           <folding>
-            <marker date="1386697778000" expanded="true" signature="671:861" placeholder="{...}" />
-            <marker date="1386697778000" expanded="true" signature="720:747" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="218" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
+            <marker date="1386698806000" expanded="true" signature="104:115" placeholder="{...}" />
+            <marker date="1386698806000" expanded="true" signature="146:246" placeholder="[...]" />
+            <marker date="1386698806000" expanded="true" signature="139:190" placeholder="{&quot;id&quot;: 1...}" />
+            <marker date="1386698806000" expanded="true" signature="195:216" placeholder="{&quot;id&quot;: 2...}" />
+            <marker date="1386698806000" expanded="true" signature="480:670" placeholder="{...}" />
+            <marker date="1386698806000" expanded="true" signature="529:556" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -642,14 +628,26 @@
         <state line="5" column="35" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
           <folding>
             <element signature="e#0#41#0" expanded="false" />
+            <marker date="1386697776000" expanded="true" signature="80:175" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/time.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.05107832" vertical-offset="0" max-vertical-offset="881">
-          <folding />
+        <state line="4" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="-0.8" vertical-offset="0" max-vertical-offset="150">
+          <folding>
+            <marker date="1386697894000" expanded="true" signature="17:80" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/models/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.16574585" vertical-offset="0" max-vertical-offset="905">
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
