@@ -7,3 +7,9 @@ require('scripts/models/*');
 require('scripts/routes/*');
 require('scripts/views/*');
 require('scripts/router');
+
+
+App.TimeRoute = Ember.Route.extend({
+    model: { selectedDate: new Date('12-27-2012') }
+});
+
