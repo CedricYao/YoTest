@@ -1,8 +1,12 @@
-<div class="well">
-    Time Entry: {{input type=date value=selectedDate}}
-    <select>
-        {{#each tasks itemController="company" }}
-            <option value="{{id}}">{{name}}</option>
-        {{/each}}
-    </select>
-</div>
+<form class="form">
+    <div class="form-group">
+        Time Entry: {{input type=date value=selectedDate}}
+    </div>
+    <div class="form-group">
+        <select>
+            {{#each task in model}}
+                <option value="{{task.id}}">{{task.name}}</option>
+            {{/each}}
+        </select>
+    </div>
+</form>

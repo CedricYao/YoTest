@@ -1,0 +1,15 @@
+<p>{{input type=text value=name action='saveName'}}</p>
+<h1>Markdown files by {{name}}</h1>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span3">
+            <table class="table">
+                <tr><td>Files</td></tr>
+                {{#each task in model}}
+                    <tr><td>{{task.name}}</td></tr>
+                {{/each}}
+            </table>
+        </div>
+    </div>
+</div>
