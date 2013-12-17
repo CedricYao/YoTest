@@ -1,1 +1,1 @@
-Yotest.ApplicationAdapter = DS.RESTAdapter;
+Yotest.ApplicationAdapter = DS.FixtureAdapter;

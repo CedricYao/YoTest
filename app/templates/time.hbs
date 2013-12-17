@@ -1,7 +1,8 @@
 <div class="well">
     Time Entry: {{input type=date value=selectedDate}}
-    {{view Ember.Select
-    content=programmers
-    optionValuePath="type.id"
-    optionLabelPath="type.name"}}
+    <select>
+        {{#each tasks itemController="company" }}
+            <option value="{{id}}">{{name}}</option>
+        {{/each}}
+    </select>
 </div>
