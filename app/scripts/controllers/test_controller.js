@@ -9,4 +9,4 @@ Yotest.TestController = Ember.Controller.extend({
     saveName: function(value){
         localStorage.appName = value;
     }
-});9
+});

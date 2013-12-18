@@ -3,10 +3,15 @@
         Time Entry: {{input type=date value=selectedDate}}
     </div>
     <div class="form-group">
-        <select>
+        <select id='company' {{action doSomething this on='change'}}>
+            <option value="0"> -- Please select a company</option>
             {{#each task in model}}
-                <option value="{{task.id}}">{{task.name}}</option>
+                <option value="{{unbound task.id}}">{{task.name}}</option>
             {{/each}}
         </select>
+    </div>
+    <div>
+        <p>the selected date is: {{selectedDate}}</p>
+        <p>the selected value is: {{selectedValue}}</p>
     </div>
 </form>
