@@ -3,5 +3,11 @@
  */
 
 Yotest.TimeRoute = Ember.Route.extend({
-    model: function() {return this.store.find('company')}
+
+    model: function() {
+        return {
+            companies: this.store.find('company'),
+            tasks: []
+        }
+    }
 });
