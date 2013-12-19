@@ -2,7 +2,6 @@
  * Created by cedric on 12/17/13.
  */
 
-
 Yotest.TimeController = Ember.Controller.extend({
     init: function() {
             this.set('selectedDate', moment().format('YYYY-MM-DD'));
@@ -12,7 +11,7 @@ Yotest.TimeController = Ember.Controller.extend({
     actions: {
         company_selected: function(){
             var selectedCompany = $('#company').val();
-            if(selectedCompany == 0)
+            if(selectedCompany === 0)
             {
                 this.set('isSowHidden', true);
                 this.set('model.tasks', []);
