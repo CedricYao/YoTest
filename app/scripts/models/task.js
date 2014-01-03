@@ -7,6 +7,7 @@ Yotest.Task = DS.Model.extend({
     name: DS.attr(),
     client: DS.attr()
 });
+/*
 
 Yotest.Task.FIXTURES = [
     {
@@ -28,3 +29,4 @@ Yotest.Task.FIXTURES = [
     client: 'Udell'
 }
 ];
+*/

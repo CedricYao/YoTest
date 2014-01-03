@@ -3,9 +3,11 @@
  */
 
 Yotest.Sow = DS.Model.extend({
-    name: DS.attr()
+    name: DS.attr(),
+    company: DS.belongsTo('company')
 });
 
+/*
 Yotest.Sow.FIXTURES = [
     {
         id: 759,
@@ -24,3 +26,4 @@ Yotest.Sow.FIXTURES = [
         name: 'WME 2.0 Dev (UDELL005)'
     }];
 
+*/

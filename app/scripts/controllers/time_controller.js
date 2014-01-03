@@ -10,16 +10,18 @@ Yotest.TimeController = Ember.Controller.extend({
 
     actions: {
         company_selected: function(){
-            var selectedCompany = $('#company').val();
-            if(selectedCompany === 0)
+            var selectedCompanyValue = $('#company').val();
+            if(selectedCompanyValue === '0')
             {
                 this.set('isSowHidden', true);
-                this.set('model.tasks', []);
+                this.set('model.sows', []);
                 return;
             }
-            this.set('selectedValue', selectedCompany);
+            this.set('selectedValue', selectedCompanyValue);
             this.set('isSowHidden', false);
-            this.set('model.tasks', this.store.find('sow'));
+
+            var selctedCompany = this.store.getById('company', selectedCompanyValue);
+            this.set('model.sows', selctedCompany.get('sows'));
         }
     }
 });

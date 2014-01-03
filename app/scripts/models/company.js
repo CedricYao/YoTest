@@ -3,9 +3,11 @@
  */
 
 Yotest.Company = DS.Model.extend({
-    name: DS.attr()
+    name: DS.attr(),
+    sows: DS.hasMany('sow', { async: true })
 });
 
+/*
 Yotest.Company.FIXTURES = [
     {
         id: 1,
@@ -18,4 +20,4 @@ Yotest.Company.FIXTURES = [
     {
         id: 3,
         name: 'CUC'
-    }];
+    }];*/

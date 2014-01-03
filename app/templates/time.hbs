@@ -13,8 +13,8 @@
     <div {{bind-attr class=":form-group isSowHidden:hidden"}}>
         <select id='sow' {{action sow_selected this on='change'}}>
             <option value="0"> -- Please select a SOW</option>
-            {{#each task in model.tasks}}
-                <option value="{{unbound task.id}}">{{task.name}}</option>
+            {{#each sow in model.sows}}
+                <option value="{{unbound sow.id}}">{{sow.name}}</option>
             {{/each}}
         </select>
     </div>
